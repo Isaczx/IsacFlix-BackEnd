@@ -38,4 +38,7 @@ public class usuarioService {
 		return repository.findByCPF(CPF);
 	}
 	
+	public UserDetails findByEmailAndCPF(String email , String CPF) {
+		return repository.findByEmailAndCPF(email , CPF);
+	}
 }

@@ -49,5 +49,11 @@ public class usuarioRecource {
 		return ResponseEntity.ok().body(obj);
 	}
 	
+	@GetMapping(value = "/Recuperar/{email},{CPF}")
+	public ResponseEntity<UserDetails> findByEmailAndCPF (@PathVariable String email , String CPF){
+		UserDetails obj = service.findByEmailAndCPF(email, CPF);
+		return ResponseEntity.ok().body(obj);
+	}
+	
 	
 }

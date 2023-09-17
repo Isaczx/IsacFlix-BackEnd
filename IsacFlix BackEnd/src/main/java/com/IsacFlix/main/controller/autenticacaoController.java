@@ -79,4 +79,6 @@ public class autenticacaoController {
 		return ResponseEntity.ok().build();
 
 	}
-}
+	
+	
+ }

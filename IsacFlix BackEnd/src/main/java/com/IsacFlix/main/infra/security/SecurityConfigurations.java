@@ -30,6 +30,7 @@ public class SecurityConfigurations {
 						.requestMatchers(HttpMethod.GET, "/lista/{nome}").permitAll()
 						.requestMatchers(HttpMethod.GET, "/lista/email/{email}").permitAll()
 						.requestMatchers(HttpMethod.GET, "/lista/CPF/{CPF}").permitAll()
+						.requestMatchers(HttpMethod.GET, "/Recuperar/{email},{CPF}").permitAll()
 						.anyRequest()
 						.authenticated())
 				.addFilterBefore(securityFilte, UsernamePasswordAuthenticationFilter.class).build();
