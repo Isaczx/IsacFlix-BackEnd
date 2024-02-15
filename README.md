@@ -22,9 +22,9 @@ Antes de começar, verifique se o seu computador atende aos requisitos mínimos 
 Java Development Kit (JDK) 11 ou superior instalado
 Maven (opcional, se você não tiver o Maven, será usado o Maven Wrapper fornecido com o projeto)
 
-## Passo 1: Clonar o Repositório
+### Passo 1: Clonar o Repositório
 
-## Passo 2: Configurar o Banco de Dados
+### Passo 2: Configurar o Banco de Dados
 
 1-Certifique-se de ter um servidor MySQL instalado e em execução em sua máquina.
 
@@ -32,9 +32,9 @@ Maven (opcional, se você não tiver o Maven, será usado o Maven Wrapper fornec
 
 Nele vai estar as tabelas de usuario e videos necessario para o projeto funcionar.
 
-## Passo 3: Importar corretamente os projetos FrontEnd e BackEnd do IsacFlix em seu computador.
+### Passo 3: Importar corretamente os projetos FrontEnd e BackEnd do IsacFlix em seu computador.
 
-Elementos do projeto.
+# Elementos do projeto.
 
 # Cadastro de Usuário:
 
