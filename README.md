@@ -22,37 +22,37 @@ Antes de começar, verifique se o seu computador atende aos requisitos mínimos 
 Java Development Kit (JDK) 11 ou superior instalado
 Maven (opcional, se você não tiver o Maven, será usado o Maven Wrapper fornecido com o projeto)
 
-Passo 1: Clonar o Repositório
+## Passo 1: Clonar o Repositório
 
-Passo 2: Configurar o Banco de Dados
+## Passo 2: Configurar o Banco de Dados
 
-##1-Certifique-se de ter um servidor MySQL instalado e em execução em sua máquina.
+1-Certifique-se de ter um servidor MySQL instalado e em execução em sua máquina.
 
-##2-Importe esse  banco de dados chamado "isacflix" no MySQL https://github.com/Isaczx/IsacFlix-BackEnd/blob/1da74b648dde978e13f0d443c7917fa52ad1bb54/isacFlix.sql
+2-Importe esse  banco de dados chamado "isacflix" no MySQL https://github.com/Isaczx/IsacFlix-BackEnd/blob/1da74b648dde978e13f0d443c7917fa52ad1bb54/isacFlix.sql
 
 Nele vai estar as tabelas de usuario e videos necessario para o projeto funcionar.
 
-##Passo 3: Importar corretamente os projetos FrontEnd e BackEnd do IsacFlix em seu computador.
+## Passo 3: Importar corretamente os projetos FrontEnd e BackEnd do IsacFlix em seu computador.
 
 Elementos do projeto.
 
 # Cadastro de Usuário:
 
-##1- Para cadastrar um novo usuário é necessario preencher os formularios correspondentes na pagina pages/CriarConta.html ou inserir diretamente no banco de dados.
+1- Para cadastrar um novo usuário é necessario preencher os formularios correspondentes na pagina pages/CriarConta.html ou inserir diretamente no banco de dados.
 
-##2- É necessário inserir o nome completo, email válido, CPF válido e senha juntamente com sua confirmação.
+2- É necessário inserir o nome completo, email válido, CPF válido e senha juntamente com sua confirmação.
 
-##3- Para manter a segurança e privacidade do usuario. Foi implantando uma função com o framework JWT que ao enviar a senha no input, a mesma é criptografada e fica irreconhecivel no banco de dados.
+3- Para manter a segurança e privacidade do usuario. Foi implantando uma função com o framework JWT que ao enviar a senha no input, a mesma é criptografada e fica irreconhecivel no banco de dados.
 
 
 ![cadastro de usuario](https://github.com/Isaczx/IsacFlix-BackEnd/assets/118670709/18157ceb-b08d-46a9-ab47-674c8e04d380)
 
 # Login de Usuário:
 
-##1- Para realizar login e necessario inserir o email e a senha do usuario corretamente e clicar em entrar na tela index.html.
+1- Para realizar login e necessario inserir o email e a senha do usuario corretamente e clicar em entrar na tela index.html.
 
-##2- O input é enviado atraves do medoto post e recebido pelo servidor, o mesmo vai procurar as informações, a senha é criptografada e verificada se bate com a do email correspondente.
+2- O input é enviado atraves do medoto post e recebido pelo servidor, o mesmo vai procurar as informações, a senha é criptografada e verificada se bate com a do email correspondente.
 
-##3-Com o login sucedido, o usuario é redirecionado para a tela home, onde contem o conteudo principal. caso contrario é mostrado uma mensagem de erro.
+3-Com o login sucedido, o usuario é redirecionado para a tela home, onde contem o conteudo principal. caso contrario é mostrado uma mensagem de erro.
 
 ![Tela inicial](https://github.com/Isaczx/IsacFlix-BackEnd/assets/118670709/3b266609-7772-4930-9eec-188e094cf294)
