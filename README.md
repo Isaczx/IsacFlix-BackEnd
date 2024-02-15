@@ -28,4 +28,4 @@ Passo 1: Clonar o Repositório
 
 Passo 2: Configurar o Banco de Dados
 Certifique-se de ter um servidor MySQL instalado e em execução em sua máquina.
-Importe esse  banco de dados chamado "isacflix" no MySQL. 
+Importe esse  banco de dados chamado "isacflix" no MySQL https://github.com/Isaczx/IsacFlix-BackEnd/blob/1da74b648dde978e13f0d443c7917fa52ad1bb54/isacFlix.sql
