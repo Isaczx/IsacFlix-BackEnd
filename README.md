@@ -3,7 +3,7 @@
 
 Bem-vindo à documentação do isacFlix, sua plataforma de streaming completa para séries, animes e filmes. Este documento foi criado para oferecer uma compreensão abrangente do isacFlix, desde suas funcionalidades principais até as tecnologias utilizadas no desenvolvimento. Se você é novo no projeto ou está buscando informações sobre configuração e uso, você está no lugar certo.
 
-Sobre o Projeto
+# Sobre o Projeto
 
 O isacFlix é um projeto dedicado a fornecer uma experiência de entretenimento sob demanda, oferecendo aos usuários acesso a uma vasta biblioteca de conteúdos audiovisuais. Com uma interface intuitiva e amigável, os usuários podem explorar uma variedade de séries, animes e filmes em um único lugar.
 
@@ -13,11 +13,11 @@ O isacFlix conta com um sistema de autenticação seguro gerenciado por meio de 
 
 A tela principal do isacFlix apresenta uma variedade de carrosséis dinâmicos, destacando os conteúdos mais populares e recentemente adicionados. Além disso, cada conteúdo possui uma tela de vídeo dedicada, fornecendo aos usuários um player de vídeo de alta qualidade juntamente com uma descrição abrangente do conteúdo.
 
-Instalação e Execução do Backend 
+## Instalação e Execução do Backend 
 
 Antes de começar, verifique se o seu computador atende aos requisitos mínimos de sistema necessários para executar o backend do isacFlix.
 
-Requisitos de Sistema:
+# Requisitos de Sistema:
 
 Java Development Kit (JDK) 11 ou superior instalado
 Maven (opcional, se você não tiver o Maven, será usado o Maven Wrapper fornecido com o projeto)
@@ -36,7 +36,7 @@ Passo 3: Importar corretamente os projetos FrontEnd e BackEnd do IsacFlix em seu
 
 Elementos do projeto.
 
-Cadastro de Usuário:
+# Cadastro de Usuário:
 
 1- Para cadastrar um novo usuário é necessario preencher os formularios correspondentes na pagina pages/CriarConta.html ou inserir diretamente no banco de dados.
 
@@ -47,7 +47,7 @@ Cadastro de Usuário:
 
 ![cadastro de usuario](https://github.com/Isaczx/IsacFlix-BackEnd/assets/118670709/18157ceb-b08d-46a9-ab47-674c8e04d380)
 
-Login de Usuário:
+# Login de Usuário:
 
 1- Para realizar login e necessario inserir o email e a senha do usuario corretamente e clicar em entrar na tela index.html.
 
