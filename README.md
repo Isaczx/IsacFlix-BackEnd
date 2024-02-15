@@ -27,8 +27,10 @@ Maven (opcional, se você não tiver o Maven, será usado o Maven Wrapper fornec
 Passo 1: Clonar o Repositório
 
 Passo 2: Configurar o Banco de Dados
-Certifique-se de ter um servidor MySQL instalado e em execução em sua máquina.
-Importe esse  banco de dados chamado "isacflix" no MySQL https://github.com/Isaczx/IsacFlix-BackEnd/blob/1da74b648dde978e13f0d443c7917fa52ad1bb54/isacFlix.sql
+
+1-Certifique-se de ter um servidor MySQL instalado e em execução em sua máquina.
+
+2-Importe esse  banco de dados chamado "isacflix" no MySQL https://github.com/Isaczx/IsacFlix-BackEnd/blob/1da74b648dde978e13f0d443c7917fa52ad1bb54/isacFlix.sql
 
 Nele vai estar as tabelas de usurio e videos necessario para o projeto funcionar.
 
@@ -38,8 +40,11 @@ Elementos do projeto.
 
 Cadastro de Usuário:
 
-Para cadastrar um novo usuário é necessario preencher os formularios correspondentes na pagina pages/CriarConta.html ou inserir diretamente no banco de dados.
-É necessário inserir o nome completo, email válido, CPF válido e senha juntamente com sua confirmação.
-Para manter a segurança e privacidade do usuario. Foi implantando uma função com o framework JWT que ao enviar a senha no input, a mesma é criptografada e fica irreconhecivel no banco de dados.
+1- Para cadastrar um novo usuário é necessario preencher os formularios correspondentes na pagina pages/CriarConta.html ou inserir diretamente no banco de dados.
+
+2- É necessário inserir o nome completo, email válido, CPF válido e senha juntamente com sua confirmação.
+
+3- Para manter a segurança e privacidade do usuario. Foi implantando uma função com o framework JWT que ao enviar a senha no input, a mesma é criptografada e fica irreconhecivel no banco de dados.
 
 
+![cadastro de usuario](https://github.com/Isaczx/IsacFlix-BackEnd/assets/118670709/18157ceb-b08d-46a9-ab47-674c8e04d380)
