@@ -29,3 +29,17 @@ Passo 1: Clonar o Repositório
 Passo 2: Configurar o Banco de Dados
 Certifique-se de ter um servidor MySQL instalado e em execução em sua máquina.
 Importe esse  banco de dados chamado "isacflix" no MySQL https://github.com/Isaczx/IsacFlix-BackEnd/blob/1da74b648dde978e13f0d443c7917fa52ad1bb54/isacFlix.sql
+
+Nele vai estar as tabelas de usurio e videos necessario para o projeto funcionar.
+
+Passo 3: Importar corretamente os projetos FrontEnd e BackEnd do IsacFlix em seu computador.
+
+Elementos do projeto.
+
+Cadastro de Usuário:
+
+Para cadastrar um novo usuário é necessario preencher os formularios correspondentes na pagina pages/CriarConta.html ou inserir diretamente no banco de dados.
+É necessário inserir o nome completo, email válido, CPF válido e senha juntamente com sua confirmação.
+Para manter a segurança e privacidade do usuario. Foi implantando uma função com o framework JWT que ao enviar a senha no input, a mesma é criptografada e fica irreconhecivel no banco de dados.
+
+
