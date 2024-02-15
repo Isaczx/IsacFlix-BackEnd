@@ -1,5 +1,7 @@
 # IsacFlix-BackEnd
 backend da aplicação isacflix feita em java spring
 
-CREATE DATABASE `isacflix` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+Introdução
+
+Bem-vindo à documentação do projeto IsacFlix. Este documento destina-se a fornecer uma visão geral e orientações básicas sobre o desenvolvimento, configuração e uso do sistema. Se você é novo no projeto ou está procurando informações essenciais para começar, este guia é para você.
 
