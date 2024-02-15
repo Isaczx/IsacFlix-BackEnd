@@ -48,3 +48,12 @@ Cadastro de Usuário:
 
 
 ![cadastro de usuario](https://github.com/Isaczx/IsacFlix-BackEnd/assets/118670709/18157ceb-b08d-46a9-ab47-674c8e04d380)
+
+Login de Usuário:
+
+1- Para realizar login e necessario inserir o email e a senha do usuario corretamente e clicar em entrar na tela index.html.
+2- O input é enviado atraves do medoto post e recebido pelo servidor, o mesmo vai procurar as informações, a senha é criptografada e verificada se bate com a do email correspondente.
+
+3-Com o login sucedido, o usuario é redirecionado para a tela home, onde contem o conteudo principal. caso contrario e mostrado uma mensagem de erro.
+
+![Tela inicial](https://github.com/Isaczx/IsacFlix-BackEnd/assets/118670709/3b266609-7772-4930-9eec-188e094cf294)
