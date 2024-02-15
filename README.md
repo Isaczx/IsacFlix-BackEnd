@@ -3,5 +3,14 @@ backend da aplicação isacflix feita em java spring
 
 Introdução
 
-BBem-vindo à documentação do isacFlix, sua plataforma de streaming completa para séries, animes e filmes. Este documento foi criado para oferecer uma compreensão abrangente do isacFlix, desde suas funcionalidades principais até as tecnologias utilizadas no desenvolvimento. Se você é novo no projeto ou está buscando informações sobre configuração e uso, você está no lugar certo.
+Bem-vindo à documentação do isacFlix, sua plataforma de streaming completa para séries, animes e filmes. Este documento foi criado para oferecer uma compreensão abrangente do isacFlix, desde suas funcionalidades principais até as tecnologias utilizadas no desenvolvimento. Se você é novo no projeto ou está buscando informações sobre configuração e uso, você está no lugar certo.
 
+Sobre o Projeto
+
+O isacFlix é um projeto dedicado a fornecer uma experiência de entretenimento sob demanda, oferecendo aos usuários acesso a uma vasta biblioteca de conteúdos audiovisuais. Com uma interface intuitiva e amigável, os usuários podem explorar uma variedade de séries, animes e filmes em um único lugar.
+
+Para construir o isacFlix, utilizamos uma pilha de tecnologias modernas. No lado do back-end, Java Spring Boot é empregado para garantir um desenvolvimento robusto e escalável. No front-end, as tecnologias web padrão HTML, CSS e JavaScript são utilizadas para criar uma experiência de usuário atraente e responsiva.
+
+O isacFlix conta com um sistema de autenticação seguro gerenciado por meio de uma tela de login, que faz uso do framework JWT (JSON Web Tokens). Isso garante a autenticação eficiente dos usuários, protegendo suas informações privadas durante o uso da plataforma.
+
+A tela principal do isacFlix apresenta uma variedade de carrosséis dinâmicos, destacando os conteúdos mais populares e recentemente adicionados. Além disso, cada conteúdo possui uma tela de vídeo dedicada, fornecendo aos usuários um player de vídeo de alta qualidade juntamente com uma descrição abrangente do conteúdo.
