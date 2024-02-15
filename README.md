@@ -55,6 +55,6 @@ Login de Usuário:
 
 2- O input é enviado atraves do medoto post e recebido pelo servidor, o mesmo vai procurar as informações, a senha é criptografada e verificada se bate com a do email correspondente.
 
-3-Com o login sucedido, o usuario é redirecionado para a tela home, onde contem o conteudo principal. caso contrario e mostrado uma mensagem de erro.
+3-Com o login sucedido, o usuario é redirecionado para a tela home, onde contem o conteudo principal. caso contrario é mostrado uma mensagem de erro.
 
 ![Tela inicial](https://github.com/Isaczx/IsacFlix-BackEnd/assets/118670709/3b266609-7772-4930-9eec-188e094cf294)
