@@ -3,5 +3,5 @@ backend da aplicação isacflix feita em java spring
 
 Introdução
 
-Bem-vindo à documentação do projeto IsacFlix. Este documento destina-se a fornecer uma visão geral e orientações básicas sobre o desenvolvimento, configuração e uso do sistema. Se você é novo no projeto ou está procurando informações essenciais para começar, este guia é para você.
+BBem-vindo à documentação do isacFlix, sua plataforma de streaming completa para séries, animes e filmes. Este documento foi criado para oferecer uma compreensão abrangente do isacFlix, desde suas funcionalidades principais até as tecnologias utilizadas no desenvolvimento. Se você é novo no projeto ou está buscando informações sobre configuração e uso, você está no lugar certo.
 
